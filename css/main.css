@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Roboto&display=swap");
+.textDestacado {
+  background-color: rgba(255, 252, 0, 0.4); }
+
+.textBold {
+  font-weight: 600; }
+
+.textCenter {
+  text-align: center; }
+
+.textRight {
+  text-align: right; }
+
+.textLeft {
+  text-align: left; }
+
+.botonera {
+  background-color: #33ddc9;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end; }
+  .botonera img {
+    width: 100px; }
+    @media (min-width: 320px) and (max-width: 320px) {
+      .botonera img {
+        width: 100px; } }
+  .botonera ul {
+    display: flex;
+    justify-content: flex-end; }
+    .botonera ul li {
+      list-style: none;
+      margin-right: 10px; }
+      .botonera ul li a {
+        font-family: "Roboto", sans-serif;
+        font-size: 1em;
+        text-decoration: none;
+        justify-content: flex-end;
+        color: #0F0E0E; }
+        .botonera ul li a:hover {
+          color: #010a15; }
+
+.logo__principal {
+  border-radius: 55%;
+  width: 135px;
+  padding: 5px 10px;
+  display: center; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: url(../img/fondo.jpg);
+  background-attachment: fixed; }
+
+h1,
+h2,
+h3 {
+  font-family: "Nunito Sans", sans-serif;
+  color: #010a15;
+  margin: 10px 20px;
+  font-weight: 600; }
+
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 2em; }
+
+h3 {
+  font-size: 1em; }
+
+p {
+  margin: 10px 20px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4em;
+  font-size: 1em;
+  color: #0F0E0E; }
+
+a {
+  margin: 10px 20px;
+  color: #010a15;
+  font-size: 1em;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif; }
+
+.bgLight {
+  background-color: rgba(29, 169, 122, 0.5); }
+
+.bgDark {
+  background-color: #0F0E0E; }
+
+.btnXl {
+  width: 50%;
+  height: 30px;
+  background-color: #F5F0F0;
+  color: #010a15;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 50px;
+  font-size: 2rem;
+  /****display flex****/
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.pie {
+  /*padding*/
+  padding: 30px;
+  /****display flex****/
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .pie a {
+    text-decoration: none; }
+
+.pie__icon--sm {
+  /*size*/
+  width: 30px; }
+
+.pie__titulo--md {
+  font-size: 2rem; }
