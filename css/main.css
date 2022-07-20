@@ -14,6 +14,13 @@
 .textLeft {
   text-align: left; }
 
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  line-height: 2.4em;
+  color: #f9fbfc;
+  padding: 4px; }
+
 .botonera {
   background-color: #33ddc9;
   padding: 5px 10px;
@@ -55,8 +62,7 @@ body {
   background-attachment: fixed; }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: "Nunito Sans", sans-serif;
   color: #010a15;
   margin: 10px 20px;
@@ -67,9 +73,6 @@ h1 {
 
 h2 {
   font-size: 2em; }
-
-h3 {
-  font-size: 1em; }
 
 p {
   margin: 10px 20px;
@@ -106,19 +109,12 @@ a {
   justify-content: center;
   align-items: center; }
 
-.pie {
-  /*padding*/
+.pie, .pie-icon {
   padding: 30px;
-  /****display flex****/
   display: flex;
   flex-direction: column;
   align-items: center; }
-  .pie a {
-    text-decoration: none; }
 
-.pie__icon--sm {
-  /*size*/
-  width: 30px; }
-
-.pie__titulo--md {
-  font-size: 2rem; }
+.pie-icon {
+  width: 30px;
+  border-radius: 2px; }
